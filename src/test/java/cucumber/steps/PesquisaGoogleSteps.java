@@ -45,8 +45,8 @@ public class PesquisaGoogleSteps {
 		driver.quit();
 	}
 	
-	@Entao("^mostra a \"([^\"]*)\" principal do assunto pesquisado$")
-	public void mostraAPrincipalDoAssuntoPesquisado(String url) throws Throwable {
+	@Entao("^mostra a URL principal do assunto pesquisado \"([^\"]*)\"$")
+	public void mostraAURLPrincipalDoAssuntoPesquisado(String url) throws Throwable {
 		Assert.assertEquals(url, driver.getCurrentUrl());
 		driver.quit();
 	}

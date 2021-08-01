@@ -24,7 +24,7 @@ Esquema do Cenario: Deve fazer pesquisas utilizando botão "Estou com sorte"
   Dado que o usuario esta no site "<site>"
   Quando o usuario pesquisa "<assunto>"
   E o usuario clica no botao "<botao>"
-  Entao mostra a "<url>" principal do assunto pesquisado
+  Entao mostra a URL principal do assunto pesquisado "<url>"
   
 Exemplos:
 | site   | assunto  | botao           | url                         |
